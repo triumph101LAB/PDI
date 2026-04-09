@@ -5,14 +5,16 @@
   "homepage": "https://triumph101LAB.io/PDI",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.14.0",
+    "axois": "^0.0.1-security",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "recharts": "^3.8.1"
